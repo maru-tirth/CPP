@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// COMMON USE OF CONSTRUCTORS
 class Demp
 {
     string name;
@@ -53,13 +53,9 @@ int main()
 
 // ADDITION OF TWO NUMBERS
 
-// #include <iostream>
-// using namespace std;
-
 // class Addition
 // {
 //     int num1, num2, sum;
-
 // public:
 //     Addition(int a, int b)
 //     {
@@ -72,6 +68,7 @@ int main()
 //         cout << "Sum of " << num1 << " and " << num2 << " is " << sum << endl;
 //     };
 // };
+
 // int main()
 // {
 //     int n1, n2;
@@ -81,5 +78,42 @@ int main()
 //     cin >> n2;
 //     Addition a(n1, n2);
 //     a.display();
+//     return 0;
+// }
+
+// ADDITION OF TEO COMPLEX NUMBERS
+
+// class Complex
+// {
+//     int real, img;
+// public:
+//     Complex() {}
+//     Complex(int a, int b)
+//     {
+//         real = a;
+//         img = b;
+//     }
+//     void showData()
+//     {
+//         cout << real << " + " << img << "i" << endl;
+//     }
+//     Complex sum(Complex C1)
+//     {
+//         Complex C3;
+//         C3.real = real + C1.real;
+//         C3.img = img + C1.img;
+//         return C3;
+//     }
+// };
+
+// int main()
+// {
+//     Complex obj1(3, 4);
+//     obj1.showData();
+//     Complex obj2(5, 6);
+//     obj2.showData();
+//     Complex obj3;
+//     obj3 = obj1.sum(obj2);
+//     obj3.showData();
 //     return 0;
 // }
